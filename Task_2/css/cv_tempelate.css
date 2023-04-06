@@ -1,0 +1,84 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+body{
+    background-color: rgba(255, 127, 80, 0.223);
+}
+
+.information{
+    width: 50%;
+    height: 20vh;
+}
+.information p{
+    line-height: 0.3;
+}
+
+.information p:nth-child(1){
+    font-size: 40px;
+}
+
+.information p:nth-child(2){
+    font-size: 20px;
+}
+
+.main{
+    width: 80%;
+    height: 150vh;
+    display: flex;
+    gap: 50px;
+}
+
+.title{
+    color: rgb(48, 48, 233);
+    font-size: 20px;
+}
+
+.company2 p:nth-child(3){
+    line-height: 1.4;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+.company3 p:nth-child(3){
+    line-height: 1.6;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.project{
+    line-height: 1.6;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.education{
+    width: 60%;
+    height: 135vh;
+}
+.language,.skills{
+    line-height: 1.6;
+    font-family: 'Times New Roman', Times, serif;
+}
+.fa-briefcase, .fa-building-columns, .fa-list-check, .fa-globe, .fa-desktop{
+    color: black;
+}
+.h_line, .y_line{
+    height: 165vh;
+    border: 1px dashed black;
+}
+
+.img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-size: cover;
+    position: relative;
+}
+#forimg{
+    position: absolute;
+    margin-left: 500px;
+
+
+}
+

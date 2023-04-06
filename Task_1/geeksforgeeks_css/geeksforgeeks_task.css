@@ -1,0 +1,18 @@
+.geeks{
+    width: 50%;
+    height: 30vh;
+    border: 10px solid white;
+    margin: 0 auto;
+    background-image: linear-gradient(to right,orange, rgb(244, 47, 230) , rgba(226, 11, 226, 0.734),rgba(131, 10, 191,1),#514bd1,#22b4ec);
+    ;
+}
+body{
+    background-color: rgba(255, 127, 80, 0.252);
+}
+.geeks p{
+    font-size: 45px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 35px;
+}
